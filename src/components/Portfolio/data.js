@@ -126,7 +126,7 @@ export const data = [
     hosting: "https://hamzaabduljalil.github.io/Mapty/",
   },
   {
-    id: 10,
+    id: 11,
     title: "bank-app",
     summary: "FrontEnd web application developed using JavaScript",
     Language: ["JavaScript", "WebDesign"],
