@@ -1,0 +1,16 @@
+.line::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -45px;
+  bottom: -10px;
+  width: 100px;
+  height: 2px;
+  background-color: #5c62f4;
+}
+.activeLink {
+  color: #5c62f4;
+}
+.shadow {
+  box-shadow: 0 2px 15px rgb(0 0 0 / 7%);
+}

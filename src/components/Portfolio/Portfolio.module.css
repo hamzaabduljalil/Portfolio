@@ -1,0 +1,34 @@
+.symbol::before {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    height: 1px;
+    background-color: #777;
+    z-index: 4;
+
+}
+
+.symbol::after {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    bottom: 0;
+    content: "\a7";
+    font-size: 30px;
+    line-height: 40px;
+    color: #c50000;
+    font-weight: 400;
+    z-index: 5;
+    display: block;
+    background-color: #f8f8f8;
+}
+
+.hoverFilter:hover {
+    background-color: #0d6efd;
+    color: white;
+}

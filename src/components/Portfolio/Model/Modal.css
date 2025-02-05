@@ -1,0 +1,17 @@
+.hoverclose:hover {
+  color: rgba(0, 0, 0, 0.769);
+}
+
+.imagemodal {
+  width: max-content;
+  max-width: 100%;
+  height: 150%;
+  height: 100%;
+  border: 1px solid #ddd;
+  flex-shrink: 0;
+}
+
+.hoverbtn:hover {
+  background-color: black;
+  color: white;
+}

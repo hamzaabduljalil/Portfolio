@@ -1,0 +1,60 @@
+.hover:hover {
+  background-color: #1787e0;
+  box-shadow: 0 5px 25px #0000001a;
+
+}
+
+.shadow2 {
+  box-shadow: 0 2px 5px rgb(0 0 0 / 45%);
+}
+
+.mark {
+  list-style: none;
+  counter-reset: my-counter;
+  padding-left: 15px;
+
+}
+
+.mark li {
+  counter-increment: my-counter;
+  position: relative;
+  padding-left: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 25px #0000001a;
+  transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s;
+}
+
+.mark li::before {
+  content: counter(my-counter);
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.mark li:hover {
+  background-color: #2196f3;
+  color: white;
+  transform: scale(1.05);
+}
+
+.mark li:hover::before {
+  color: #2196f3;
+  background-color: white;
+}
