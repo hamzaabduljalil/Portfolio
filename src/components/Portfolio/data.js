@@ -10,7 +10,7 @@ import expensesapp2 from "../../assets/project/expensesqpp/page2.png";
 import ReactMeals1 from "../../assets/project/ReactMeals/page1.png";
 import ReactMeals2 from "../../assets/project/ReactMeals/page2.png";
 import img1 from "../../assets/project/page1.png";
-import img2 from "../../assets/designing.webp";
+
 export const data = [
   {
     id: 2,
@@ -62,7 +62,7 @@ export const data = [
     hosting: "https://hamzaabduljalil.github.io/ExpensesApp/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Expense-App",
     summary: "FrontEnd web application developed using React",
     Language: ["React", "JavaScript"],
@@ -74,7 +74,7 @@ export const data = [
     hosting: "https://hamzaabduljalil.github.io/ExpensesApp/",
   },
   {
-    id: 5,
+    id: 6,
     title: "React-Meals",
     summary: "FrontEnd web application developed using React",
     Language: ["React", "JavaScript"],
