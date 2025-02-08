@@ -2,7 +2,6 @@ import React from "react";
 import "./index.css";
 import { Routes, Route } from "react-router-dom";
 import DisplayHeader from "./components/Header/DisplayHeader";
-
 import Footer from "./components/Footer/Footer";
 import HomePage from "./Pages/HomePage";
 import ResumePage from "./Pages/ResumePage";
