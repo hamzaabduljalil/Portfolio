@@ -12,25 +12,37 @@ const FAQ = () => {
     <div>
       <Accordion
         title="Work Experience"
+        position3="FrontEnd Developer"
+        company3="Freelancer"
+        date3="9/2023 - Present"
+        text3={
+          <ul className="list-disc list-inside">
+            <li>Converting designs into a responsive templates</li>
+            <li>
+              Writing well-designed and efficient code using the best software
+              development tools
+            </li>
+          </ul>
+        }
+        shadwo2={<div className="mt-4 shadow2 w-[100%] h-1" />}
         position="FrontEnd Developer"
-        company="Freelancer"
-        date="10/2023 - Present"
+        company="Quizat App - Dashboard Manager"
+        date="2/2025 - Present"
         isOpen={openSection === "experience"}
         onToggle={() => toggleSection("experience")}
         text={
           <ul className="list-disc list-inside">
             <li>
-              Developed complex web applications using HTML, CSS, JavaScript and
-              JQuery technologies.
+              Managing and overseeing the development of the dashboard for a
+              student-focusedQuizApp.
             </li>
             <li>
-              Increased Page Load Speed: Optimized web applications, resulting
-              in a 30% reduction in load times, improving user engagement and
-              retention
+              Coordinating user interfaces, including quiz management,
+              performance tracking, and feedback systems.
             </li>
             <li>
-              Enhanced User Experience: Conducted user testing and made
-              adjustments that improved user satisfaction scores by 25%
+              Collaborating with development teams to ensure seamless
+              integration of quiz data and user interactions
             </li>
           </ul>
         }

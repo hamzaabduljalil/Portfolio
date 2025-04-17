@@ -15,7 +15,7 @@ const Contact = () => {
       >
         Contact
       </h1>
-      <ContactForm />
+      {/* <ContactForm /> */}
       <div
         className={`${styles.box} border-1 border-border-100 shadow-lg shadow-[rgba(0,0,0,0.15)] text-center max-w-[1000px] m-auto mt-5 pt-5  `}
       >

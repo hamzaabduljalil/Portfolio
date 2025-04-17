@@ -11,6 +11,11 @@ const Accordion = ({
   date2,
   text2,
   shadwo,
+  position3,
+  company3,
+  date3,
+  text3,
+  shadwo2,
   isOpen,
   onToggle,
 }) => {
@@ -59,7 +64,7 @@ const Accordion = ({
           isOpen ? "max-h-fit opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="overflow-hidden">
+        <div className="overflow-hidden pl-6 ">
           <h2 className="text-[27px] font-medium mt-2 tracking-wide">
             {position}
           </h2>
@@ -67,8 +72,8 @@ const Accordion = ({
             {company}
           </h3>
           <h4 className="font-medium text-2xl">{date}</h4>
-          <div className="mt-2">{text}</div>
-          <div>{shadwo}</div>
+          <div className="mt-2 pl-4">{text}</div>
+          <div>{shadwo2}</div>
           <h2 className="text-[27px] font-medium mt-2 tracking-wide">
             {position2}
           </h2>
@@ -76,7 +81,16 @@ const Accordion = ({
             {company2}
           </h3>
           <h4 className="font-medium text-2xl">{date2}</h4>
-          <div className="mt-2">{text2}</div>
+          <div className="mt-2 pl-4">{text2}</div>
+          <div>{shadwo}</div>
+          <h2 className="text-[27px] font-medium mt-2 tracking-wide">
+            {position3}
+          </h2>
+          <h3 className="text-[26px] font-medium text-pdf-200 mt-[-5px]">
+            {company3}
+          </h3>
+          <h4 className="font-medium text-2xl">{date3}</h4>
+          <div className="mt-2 pl-4">{text3}</div>
         </div>
       </div>
     </div>
