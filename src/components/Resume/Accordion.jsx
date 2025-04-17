@@ -64,7 +64,7 @@ const Accordion = ({
           isOpen ? "max-h-fit opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="overflow-hidden pl-6 ">
+        <div className="overflow-hidden p-6 md:p-4">
           <h2 className="text-[27px] font-medium mt-2 tracking-wide">
             {position}
           </h2>
